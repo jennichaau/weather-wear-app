@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather Wear</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="script.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Weather Wear</h1>
+  </header>
+
+  <main>
+    <div class="intro">
+      <p>Having a hard time in the morning deciding what to wear?
+        Tired of wearing shorts on a cold day or an eskimo jacket when it's 80 degrees outside?
+        Weather Wear has you covered!
+      </p>
+      <h2>Type in a city to get started.</h2>
+      <div class="form">
+        <input type = "text" id = "cityName">
+        <button onclick = "getWeather();" id="myButton">Enter a City</button>
+      </div>
+    </div>
+
+    <div>
+      <p class="city"></p>
+      <p class="weatherResponse"></p>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h3>Top</h3>
+        <img src="http://www.free-icons-download.net/images/tshirt-icon-61383.png" alt="top">
+        <p id="top"></p>
+      </div>
+      <div class="col">
+        <h3>Pants</h3>
+        <img src="http://www.free-icons-download.net/images/icon-pants-61374.png" alt="pants">
+        <p id="pants"></p>
+      </div>
+      <div class="col">
+        <h3>Outerwear</h3>
+        <img src="http://www.free-icons-download.net/images/jacket-icon-61690.png" alt="outerwear">
+        <p id="outerwear"></p>
+      </div>
+      <div class="col">
+        <h3>Footwear</h3>
+        <img src="http://www.free-icons-download.net/images/shoe-man-icon-61448.png" alt="footwear">
+        <p id="footwear"></p>
+      </div>
+      <div class="col">
+        <h3>Hair</h3>
+        <img src="http://www.free-icons-download.net/images/hair-icon-69880.png" alt="hair">
+        <p id="hair"></p>
+      </div>
+      <div class="col">
+        <h3>Accessories</h3>
+        <img src="http://www.free-icons-download.net/images/diamond-ring-icon-72198.png" alt="accessories">
+        <p id="accessories"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; Jennifer Chau 2018 Weather Wear</p>
+    <a href="mailto:jenniferchau98@gmail.com">Contact Me</a>
+    <div>
+      <p>
+        This page was last modified on:
+        <script>document.write(document.lastModified);</script>
+      </p>
+    </div>
+    <p>Background photo by veeterzy from Pexels</p>
+  </footer>
+</body>
+</html>

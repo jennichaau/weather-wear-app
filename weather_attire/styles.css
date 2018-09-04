@@ -1,0 +1,86 @@
+body {
+  background-image: url("landscape.jpeg");
+  background-attachment: fixed;
+  margin: 0;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Arial';
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px;
+}
+
+main {
+  margin: 10px;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+.intro {
+  background: rgb(30, 18, 15);
+  background: rgba(30, 18, 15, 0.6);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 35px;
+  color: white;
+}
+
+.intro p {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.city {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.col {
+  width: 100%;
+  min-height: 40px;
+  color: black;
+  padding: 25px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.6);
+
+}
+
+.col img {
+  width: 60px;
+}
+
+.col p {
+  width: 100%;
+}
+
+@media screen and (min-width:468px){
+  .col{
+    width: 30%;
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width:768px){
+  .col{
+    width: 20%;
+    margin: 10px;
+  }
+}
